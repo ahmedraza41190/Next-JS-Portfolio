@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Hero = () => {
   return (
@@ -24,9 +25,11 @@ const Hero = () => {
               chambray.
             </p>
             <div className="flex justify-center">
+              <Link href={"#contact"}>
               <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
                 Contact
               </button>
+              </Link>
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
