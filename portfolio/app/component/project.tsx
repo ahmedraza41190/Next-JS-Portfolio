@@ -19,7 +19,7 @@ const Project = () => {
                                 <Image
                                     alt="gallery"
                                     className="absolute inset-0 w-full h-full object-cover object-center"
-                                    src={require("../../public/assets/picture/my-logo.jpg")} 
+                                    src={require("../../public/assets/project/expertizo (1).png")} 
                                 />
                                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                                     <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
@@ -44,7 +44,7 @@ const Project = () => {
                                 <Image
                                     alt="gallery"
                                     className="absolute inset-0 w-full h-full object-cover object-center"
-                                    src={require("../../public/assets/picture/my-logo.jpg")} 
+                                    src={require("../../public/assets/project/Crud-App.png")} 
                                 />
                                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                                     <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
@@ -56,7 +56,7 @@ const Project = () => {
                                     <p className="leading-relaxed line-clamp-2">
                                         This is the project which I've created for class Assisgnment.
                                     </p> 
-                                    <Link target="_blank" href={"odd-cuff-links-lamb.cyclic.cloud"}>
+                                    <Link target="_blank" href={"https://odd-cuff-links-lamb.cyclic.cloud/"}>
                                     <p className="leading-relaxed text-blue-500 hover:underline">
                                        View Project...
                                     </p>
@@ -69,7 +69,7 @@ const Project = () => {
                                 <Image
                                     alt="gallery"
                                     className="absolute inset-0 w-full h-full object-cover object-center"
-                                    src={require("../../public/assets/picture/my-logo.jpg")} 
+                                    src={require("../../public/assets/project/Blog-App.png")} 
                                 />
                                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                                     <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
@@ -81,7 +81,7 @@ const Project = () => {
                                     <p className="leading-relaxed line-clamp-2">
                                         This is the project which I've created for class Assisgnment.
                                     </p> 
-                                    <Link target="_blank" href={"mini-hackathon-gilt.vercel.app"}>
+                                    <Link target="_blank" href={"https://mini-hackathon-gilt.vercel.app/login.html"}>
                                     <p className="leading-relaxed text-blue-500 hover:underline">
                                        View Project...
                                     </p>
@@ -94,7 +94,7 @@ const Project = () => {
                                 <Image
                                     alt="gallery"
                                     className="absolute inset-0 w-full h-full object-cover object-center"
-                                    src={require("../../public/assets/picture/my-logo.jpg")} 
+                                    src={require("../../public/assets/project/Quiz-App.png")} 
                                 />
                                  <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                                     <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
@@ -119,7 +119,7 @@ const Project = () => {
                                 <Image
                                     alt="gallery"
                                     className="absolute inset-0 w-full h-full object-cover object-center"
-                                    src={require("../../public/assets/picture/my-logo.jpg")} 
+                                    src={require("../../public/assets/project/Weather-App.png")} 
                                 />
                               <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                                     <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
@@ -144,7 +144,7 @@ const Project = () => {
                                 <Image
                                     alt="gallery"
                                     className="absolute inset-0 w-full h-full object-cover object-center"
-                                    src={require("../../public/assets/picture/my-logo.jpg")} 
+                                    src={require("../../public/assets/project/OLX.png")} 
                                 />
                                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                                     <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
