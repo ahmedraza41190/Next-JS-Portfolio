@@ -14,8 +14,8 @@ const Navbar = () => {
                     </Link>
                     <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
                         <Link href={"/"} className="mr-5 hover:text-blue-600">Home</Link>
-                        <Link href={"#"} className="mr-5 hover:text-blue-600">About</Link>
-                        <Link href={"#"} className="mr-5 hover:text-blue-600">Skills</Link>
+                        <Link href={"#about"} className="mr-5 hover:text-blue-600">About</Link>
+                        <Link href={"#skill"} className="mr-5 hover:text-blue-600">Skills</Link>
                         <Link href={"#project"} className="mr-5 hover:text-blue-600">Projects</Link>
                         <Link href={"#contact"} className="mr-5 hover:text-blue-600">Contact</Link>
                     </nav>
