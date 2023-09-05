@@ -10,7 +10,7 @@ const Cursor = () => {
       color='1000, 1000, 1000'
       outerAlpha={0.2}
       innerScale={0.7}
-      outerScale={5}
+      outerScale={2}
       clickables={[
         'a',
         'input[type="text"]',

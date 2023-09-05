@@ -5,7 +5,7 @@ import { AiOutlineCloudDownload } from 'react-icons/Ai';
 
 const Navbar = () => {
     return (
-        <div className="bg-white z-50 fixed left-0 right-0 top-0">
+        <div className="bg-white z-50 fixed sticky top-0">
             <header className="text-gray-600 body-font">
                 <div className="container mx-auto flex flex-wrap p-2  flex-col md:flex-row items-center">
                     <Link href={"/"} className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
@@ -19,7 +19,7 @@ const Navbar = () => {
                         <Link href={"#project"} className="mr-5 hover:text-blue-600">Projects</Link>
                         <Link href={"#contact"} className="mr-5 hover:text-blue-600">Contact</Link>
                     </nav>
-                    <Link href={"/assets/cv"}>
+                    <Link href={"/assets/cv/portfolio.docx"}>
                     <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
                         Download CV
                         <AiOutlineCloudDownload className="text-xl ml-2" />

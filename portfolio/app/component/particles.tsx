@@ -23,6 +23,7 @@ function Particle(){
 
     return(
         <Particles
+            
             id="tsparticles"
             init={particlesInit}
             loaded={particlesLoaded}
@@ -35,10 +36,6 @@ function Particle(){
                 fpsLimit: 50,
                 interactivity: {
                     events: {
-                        onClick: {
-                            enable: true,
-                            mode: "push",
-                        },
                         onHover: {
                             enable: true,
                             mode: "repulse",
