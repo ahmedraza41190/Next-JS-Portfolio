@@ -1,16 +1,36 @@
 import React, { FormEvent, useState } from "react";
 
 
+
 const Contact = () => {
 
-    const [name, setName] = useState('')
-    const [email, setEmail] = useState('')
-    const [message, setMessage] = useState('')
+    // const [isSubmitted, setSubmitted] = useState(false)
+    // const [name, setName] = useState('')
+    // const [email, setEmail] = useState('')
+    // const [message, setMessage] = useState('')
 
-    const onSubmit = (e: FormEvent) => {
-        e.preventDefault()
-        console.log('data', name, email, message)
-    }
+    // const onSubmit = async (e: FormEvent) => {
+    //     e.preventDefault()
+
+    //     try {
+    //         const res = await fetch('/api/contact', {
+    //             method: 'POST',
+    //             body: JSON.stringify({
+    //                 name,
+    //                 email,
+    //                 message,
+    //             }),
+    //             headers: {
+    //                 'content-type': 'application/json',
+    //             },
+    //         })
+    //         if (res.status === 200) {
+    //             setSubmitted(true)
+    //         }
+    //     } catch (err: any) {
+    //         console.error('Err', err)
+    //     }
+    // }
 
     return (
         <div id="contact">
@@ -54,18 +74,19 @@ const Contact = () => {
                         <h2 className="sm:text-4xl text-3xl font-[cursive,Comforter] text-[#fff] m-5 bg-initial drop-shadow-[2px_2px_2px_red]">
                             Contact
                         </h2>
-                        <form onSubmit={onSubmit} className="relative mb-4">
+                        <form /* onSubmit={onSubmit} */ className="relative mb-4">
 
                             <label htmlFor="name" className="leading-7 text-sm text-white">
                                 Name:
                             </label>
 
                             <input
-                                value={name}
-                                onChange={(e) => setName(e.target.value)}
+                                // value={name}
+                                // onChange={(e) => setName(e.target.value)}
                                 type="text"
                                 id="name"
                                 name="name"
+                                placeholder="name"
                                 className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                             />
 
@@ -74,11 +95,12 @@ const Contact = () => {
                             </label>
 
                             <input
-                                value={email}
-                                onChange={(e) => setEmail(e.target.value)}
+                                // value={email}
+                                // onChange={(e) => setEmail(e.target.value)}
                                 type="email"
                                 id="email"
                                 name="email"
+                                placeholder="name@example.com"
                                 className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                             />
 
@@ -87,10 +109,11 @@ const Contact = () => {
                             </label>
 
                             <textarea
-                                value={message}
-                                onChange={(e) => setMessage(e.target.value)}
+                                // value={message}
+                                // onChange={(e) => setMessage(e.target.value)}
                                 id="message"
                                 name="message"
+                                placeholder="message"
                                 className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                                 defaultValue={""}
                             />
