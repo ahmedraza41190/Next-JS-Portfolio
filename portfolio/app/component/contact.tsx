@@ -83,6 +83,7 @@ const Contact = () => {
                             <input
                                 // value={name}
                                 // onChange={(e) => setName(e.target.value)}
+                                required
                                 type="text"
                                 id="name"
                                 name="name"
@@ -97,6 +98,7 @@ const Contact = () => {
                             <input
                                 // value={email}
                                 // onChange={(e) => setEmail(e.target.value)}
+                                required
                                 type="email"
                                 id="email"
                                 name="email"
@@ -111,6 +113,7 @@ const Contact = () => {
                             <textarea
                                 // value={message}
                                 // onChange={(e) => setMessage(e.target.value)}
+                                required
                                 id="message"
                                 name="message"
                                 placeholder="message"

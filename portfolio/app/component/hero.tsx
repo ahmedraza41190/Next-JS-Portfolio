@@ -13,7 +13,7 @@ const Hero = () => {
             </h1>
             <div className="animation_div z-0" >
               <img
-                className="animation_img" width={600}
+                className="animation_img" width={600} 
                 src="https://readme-typing-svg.herokuapp.com?size=22&duration=3000&color=31F711&center=true&vCenter=true&height=100&lines=%E2%9D%A4%EF%B8%8F%E2%80%8D%F0%9F%94%A5Passionate+Web+Developer%F0%9F%92%BB;Experience+Seeker%F0%9F%92%AF;Dedicated+to+Work%F0%9F%92%AA%F0%9F%8F%BB;Always+Learning%F0%9F%92%A1;from+Karachi%2C+Pakistan%F0%9F%87%B5%F0%9F%87%B0"
                 alt="Typing SVG"
               />
@@ -38,7 +38,7 @@ const Hero = () => {
               alt="hero"
               width={350}
               height={350}
-              src={require('../../public/assets/picture/WhatsApp Image 2022-02-18 at 7.53.03 PM.jpeg')}
+              src={require("../../public/assets/picture/WhatsApp Image 2022-02-18 at 7.53.03 PM.jpeg")}
             />
           </div>
         </div>
